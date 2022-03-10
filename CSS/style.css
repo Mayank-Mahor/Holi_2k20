@@ -1,0 +1,195 @@
+/* ******************** COMMON PROPERTIES ******************** */
+
+*{
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+  }
+    
+  body{
+      margin: 0rem;
+      background-image: url(Party-background.jpg);
+      background-size: cover;
+      background-position: center; 
+      background-attachment: fixed; 
+      background-blend-mode: overlay;
+      background-color: rgb(0,0,0,.5);
+  }
+    
+  p{
+    font-size: 20px;
+    line-height: 1.75;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Merienda', cursive;
+    
+  }
+  h1, h2{
+   
+      font-family: 'Courgette', cursive;
+      text-transform: capitalize;
+      color: #e22f8f;
+      text-align: center;
+  }
+  h1{
+      font-size: 3.5rem;
+      margin: 0;
+      padding-top: 0rem; 
+      padding-bottom: 1rem;
+  } 
+  h2{
+      font-size: 32px;
+      font-weight: bold;
+}
+h3{
+    font-family: 'Merienda', cursive;
+    /* font-family: 'Courgette', cursive; */
+    font-size: 1.3rem;
+}
+/* ******************** CONTAINER PROPERTIES ******************** */
+
+.container {
+    width: 600px;
+    margin: 100px auto;
+}
+
+/* ********************************** Firtst Image*************************************** */
+.f-img{
+    line-height: 0;
+}
+
+.f-img img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.f-img-s{
+    line-height: 0;
+}
+.f-img-s img{
+    width: 100%;
+}
+  
+/* *********************************Section - 1 *************************************** */
+.sec-1{
+    background-color: #fff;
+    padding: 25px;
+}
+
+.right img{
+    width: 14.5rem;
+    height: 10rem;
+    border-radius: 0.8rem 0 0.8rem 0;
+}
+aside.right{
+    float:right;
+}
+
+/* ************************************Section - 2************************************* */
+.sec-2{
+    background-color: #fff;
+    padding: 25px;
+}
+.left img{
+    width: 14.5rem;
+    height: 10rem;
+    border-radius: 0.8rem 0 0.8rem 0;
+}
+aside.left{
+    float:left;
+}
+
+/* ************************************Section - 3************************************* */
+.sec-3{
+    background-color: #fff;
+    padding: 25px;
+}
+.right-sec-3 img{
+    width: 14.5rem;
+    height: 10rem;
+    border-radius: 0.8rem 0 0.8rem 0;
+}
+aside{
+    float: right;
+}
+
+/* ************************************Section - 4************************************* */
+.sec-4{
+    background-color: #fff;
+    padding: 25px 35px 25px 35px;
+}
+.left-sec-4 img{
+    width: 14rem;
+    height: 15rem;
+    border-radius: 0.8rem 0 0.8rem 0;
+}
+#para{
+    padding-top: 1.375rem;
+    padding-bottom: 2rem;
+}    
+.btn{
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background-color:#e22f8f;
+    border-color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 1.2rem;
+    margin-left: 6rem;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+/* ************************************ Map ******************************************* */
+.map{
+    line-height: 0;
+}
+/* ************************** Footer & Social section ********************************* */
+footer{
+    background-color: white;
+    padding-bottom: 0rem;
+}
+footer h1{
+    padding: 0;
+}
+.social{
+    background-color: rgb(167, 214, 233);
+    text-align: center;
+}
+
+.social a .fab{
+    padding: 1rem;
+    font-size: 2.5rem;
+    animation: letszoom 3s linear alternate-reverse infinite;
+  }
+  @keyframes letszoom{
+    from{
+      transform: scale(0.6);
+    }
+    to{
+      transform: scale(1.2);
+    }
+  }
+.social .instagram{
+    color: #e4405f;
+    padding: 0 0 0 0rem;
+    text-decoration: none;
+    
+}
+.social .facebook{
+    color:  orange;
+    padding: 0 0 0 3rem;
+    text-decoration: none;
+}
+.social .youtube{
+color: #cd201f;
+padding: 0 0 0 3rem;
+text-decoration: none;
+}
+.social .linkedin{
+color: #0077b5;
+padding: 0 0 0 3rem;
+text-decoration: none;
+}
+
+
+

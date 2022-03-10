@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    margin: 0rem ;
+    padding: 0rem;;
+ }
+.f-img img{
+border-radius: 0;
+}
+aside.right, aside.left, aside.right-sec-3, aside.left-sec-4{
+    text-align: center;
+    float: inherit;
+}
+h1, h2, p{
+    
+    padding: 5px 20px 5px 5px;
+}
+h1{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1rem;
+}
+.foot h1{
+    background-color: black;
+}
