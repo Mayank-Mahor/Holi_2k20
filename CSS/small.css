@@ -27,3 +27,6 @@ h3{
     width: 100%;
     margin-left: 0rem;
 }
+.social a .fab{
+    padding: 0.2rem;
+}
