@@ -23,3 +23,7 @@ h3{
 .foot h1{
     background-color: black;
 }
+.btn{
+    width: 100%;
+    margin-left: 0rem;
+}
