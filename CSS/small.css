@@ -27,6 +27,18 @@ h3{
     width: 100%;
     margin-left: 0rem;
 }
-.social a .fab{
-    padding: 0.2rem;
+.social{
+    align-items: center;
+}
+.social .instagram{
+    padding: 0rem;
+}
+.social .facebook{
+    padding: 0rem;
+}
+.social .youtube{
+    padding: 0rem;
+}
+.social .linkedin{
+    padding: 0rem;
 }
