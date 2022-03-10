@@ -143,6 +143,9 @@ aside{
 .map{
     line-height: 0;
 }
+.map iframe{
+    width: 100%;
+}
 /* ************************** Footer & Social section ********************************* */
 footer{
     background-color: white;
